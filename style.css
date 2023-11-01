@@ -1,0 +1,179 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 300px;
+}
+
+.gora {
+    background-color: #1F2937;
+}
+
+.left-links, .right-links {
+    list-style: none;
+    align-items: center;
+}
+
+.left-links h2, .right-links a {
+    text-decoration: none
+}
+
+.right-links a {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.left-links h2 {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.right-links {
+    display: flex;
+    gap: 16px;
+}
+
+.header2 {
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 300px;
+    gap: 100px;
+}
+
+.header2-left h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+.sign-up {
+    background-color: #3882F6;
+    border-radius: 8px;
+    color: #E5E7EB;
+    font-size: 18px;
+    border: 0;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+.placeholder {
+    background-color: #808080;
+    align-self: center;
+    flex-shrink: 0;
+    padding: 140px 200px;
+}
+
+.srodek h1
+{
+    color: black;
+    text-align: center;
+    padding: 40px;
+    margin: 0;
+}
+
+.obraski {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    margin-bottom: 50px;
+}
+
+.ciury {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    color: black;
+    font-size: 18px;
+    font-weight: 300;
+    width: 168px;
+}
+
+.ciur {
+    display: flex;
+    width: 168px;
+    height: 168px;
+    align-self: center;
+    border: 5px solid #3882F6;
+    border-radius: 16px;
+}
+
+.quote { 
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 100px 400px;
+}
+
+.quote h1 {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 200;
+    align-self: flex-start;
+    padding: 0;
+}
+
+.quote h2 {
+    color: black;
+    align-self: flex-end;
+    flex-shrink: 0;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.sign-up2 {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    margin: 100px 300px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 180px;
+}
+
+.call h1 {
+    font-size: 24px;
+    color: white;
+    padding: 0;
+}
+
+.call p {
+    margin: 0;
+}
+
+
+.call {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.sign-up3 {
+    background-color: #3882F6;
+    border-radius: 8px;
+    border: 2px solid #E5E7EB;
+    color: #E5E7EB;
+    cursor: pointer;
+    font-size: 18px;
+    height: 40px;
+    width: 140px;
+    align-self: center;
+}
+
+.footer {
+    background-color: #1F2937;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer p {
+    align-self: center;
+}
